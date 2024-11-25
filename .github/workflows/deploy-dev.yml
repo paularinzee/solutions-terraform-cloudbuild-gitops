@@ -65,4 +65,4 @@ jobs:
     #   working-directory: ./environments/dev
     #   env:
     #     GOOGLE_CREDENTIALS: ${{ secrets.GCP_SA_KEY }}
-        GOOGLE_CREDENTIALS: ${{ secrets.GCP_SA_KEY }}
+   
