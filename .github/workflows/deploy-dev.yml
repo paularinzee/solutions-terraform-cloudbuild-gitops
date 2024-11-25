@@ -4,7 +4,8 @@ on:
   # workflow_dispatch:
   # workflow_call:
   push:
-    branches: [ "dev" ]
+    branches:
+      - dev
     paths:
       - 'environments/dev'
   # pull_request:
