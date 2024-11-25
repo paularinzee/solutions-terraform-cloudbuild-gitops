@@ -1,14 +1,12 @@
 name: 'Deploy Development'
 
 on:
-  workflow_dispatch:
-  workflow_call:
+  # workflow_dispatch:
+  # workflow_call:
+  push:
+    branches: [ "dev" ]
     paths:
       - 'environments/dev'
-  # push:
-  #   branches: [ "dev" ]
-  #   paths:
-  #     - 'environments/dev'
   # pull_request:
 
 permissions:
