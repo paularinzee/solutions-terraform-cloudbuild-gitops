@@ -41,7 +41,7 @@ jobs:
       run: terraform init
       working-directory: ./environments/dev
       env:
-        GOOGLE_CREDENTIALS: ${{ secrets.GCP_SA_KEY }}
+        GOOGLE_CRgicdEDENTIALS: ${{ secrets.GCP_SA_KEY }}
 
     # Checks that all Terraform configuration files adhere to a canonical format
     # - name: Terraform Format
